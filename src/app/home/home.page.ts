@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
-
+text = 'Intial Value'
+  onChangeText() {
+    this.text = 'Hello World!'
+  }
 }
